@@ -66,13 +66,13 @@ const Services = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919875438052"
+              href="tel:+918276093962"
               className="inline-block bg-white text-blue-700 px-8 py-3 rounded-full font-bold hover:bg-blue-50 transition-colors"
             >
               📞 Call Now
             </a>
             <a
-              href="https://wa.me/919875438052"
+              href="https://wa.me/918276093962"
               className="inline-block bg-green-500 text-white px-8 py-3 rounded-full font-bold hover:bg-green-600 transition-colors"
             >
               💬 WhatsApp

@@ -85,8 +85,8 @@ const Footer = () => {
             <div className="space-y-4">
               <div>
                 <p className="text-gray-400 text-sm mb-1">📞 Phone</p>
-                <a href="tel:+919875438052" className="text-blue-400 font-semibold hover:text-blue-300 transition-colors">
-                  +91 98754 38052
+                <a href="tel:+918276093962" className="text-blue-400 font-semibold hover:text-blue-300 transition-colors">
+                  +91 82760 93962
                 </a>
               </div>
               <div>
@@ -104,7 +104,7 @@ const Footer = () => {
               </div>
               <div className="pt-4">
                 <a
-                  href="https://wa.me/919875438052"
+                  href="https://wa.me/918276093962"
                   className="inline-block bg-green-600 text-white px-4 py-2 rounded-full font-semibold hover:bg-green-700 transition-colors"
                 >
                   WhatsApp Us

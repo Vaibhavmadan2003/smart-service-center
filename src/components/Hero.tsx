@@ -18,13 +18,13 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:+919875438052"
+                href="tel:+918276093962"
                 className="inline-flex items-center justify-center bg-white text-blue-700 px-8 py-4 rounded-full font-bold hover:bg-blue-50 transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
               >
                 📞 Call for Service
               </a>
               <a
-                href="https://wa.me/919875438052"
+                href="https://wa.me/918276093962"
                 className="inline-flex items-center justify-center bg-green-500 text-white px-8 py-4 rounded-full font-bold hover:bg-green-600 transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
               >
                 💬 Quick Message
