@@ -22,7 +22,7 @@ const Header = () => {
       <div className="bg-blue-700 text-white py-2 text-sm fixed w-full top-0 z-50">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <span>📞 +91 82760 93962</span>
+            <span>📞 +91 98754 38052</span>
           </div>
           <div className="flex items-center space-x-4">
             <span className="hidden md:block">📍 Bakshibagan Ln, I, Barasat, West Bengal 700124</span>
@@ -45,7 +45,7 @@ const Header = () => {
                 <span className="text-white font-bold text-xl">🔧</span>
               </div>
               <div>
-                <h1 className="text-xl font-black text-blue-700 tracking-wider">SMART SERVICE CENTER</h1>
+                <h1 className="text-xl font-black text-blue-700 tracking-wider">Smaart SERVICE CENTER</h1>
                 <p className="text-xs text-gray-600 font-medium">Home Appliance Repair</p>
               </div>
             </Link>
@@ -70,13 +70,13 @@ const Header = () => {
               
               <div className="flex items-center space-x-3">
                 <a
-                  href="tel:+918276093962"
+                  href="tel:+91 98754 38052"
                   className="bg-blue-700 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-800 transition-colors"
                 >
                   Call Now
                 </a>
                 <a
-                  href="https://wa.me/918276093962"
+                  href="https://wa.me/9198754 38052"
                   className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition-colors"
                 >
                   WhatsApp
@@ -120,13 +120,13 @@ const Header = () => {
                 </Link>
                 <div className="flex flex-col space-y-2 pt-4">
                   <a
-                    href="tel:+918276093962"
+                    href="tel:+91 98754 38052"
                     className="bg-blue-700 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-800 transition-colors text-center"
                   >
                     Call Now
                   </a>
                   <a
-                    href="https://wa.me/918276093962"
+                    href="https://wa.me/9198754 38052"
                     className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition-colors text-center"
                   >
                     WhatsApp
@@ -142,3 +142,4 @@ const Header = () => {
 };
 
 export default Header;
+

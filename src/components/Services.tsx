@@ -62,17 +62,17 @@ const Services = () => {
         <div className="mt-16 bg-blue-700 text-white rounded-xl p-12 text-center">
           <h3 className="text-3xl font-bold mb-6">Need Appliance Repair?</h3>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Call Smart Service Center now for fast, reliable, and affordable appliance repair services in Barasat.
+            Call Smaart Service Center now for fast, reliable, and affordable appliance repair services in Barasat.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+918276093962"
+              href="tel:+91 98754 38052"
               className="inline-block bg-white text-blue-700 px-8 py-3 rounded-full font-bold hover:bg-blue-50 transition-colors"
             >
               📞 Call Now
             </a>
             <a
-              href="https://wa.me/918276093962"
+              href="https://wa.me/9198754 38052"
               className="inline-block bg-green-500 text-white px-8 py-3 rounded-full font-bold hover:bg-green-600 transition-colors"
             >
               💬 WhatsApp
@@ -85,3 +85,4 @@ const Services = () => {
 };
 
 export default Services;
+

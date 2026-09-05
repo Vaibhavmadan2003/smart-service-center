@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Smart Service Center - Home Appliance Repair in Barasat",
+  title: "Smaart Service Center - Home Appliance Repair in Barasat",
   description: "Professional AC repair, refrigerator service, washing machine repair in Barasat, West Bengal. Call +91 98754 38052 for doorstep appliance repair services.",
   keywords: "Appliance repair Barasat, AC repair, Refrigerator repair, Washing machine service, Microwave repair",
 };
@@ -32,3 +32,4 @@ export default function RootLayout({
     </html>
   );
 }
+

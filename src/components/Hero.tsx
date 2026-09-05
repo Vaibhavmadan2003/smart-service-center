@@ -11,20 +11,20 @@ const Hero = () => {
               <span className="text-sm font-semibold">🔧 PROFESSIONAL HOME APPLIANCE REPAIR</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
-              <span className="text-blue-200">Smart Service Center</span><br />Appliance Repair Experts
+              <span className="text-blue-200">Smaart Service Center</span><br />Appliance Repair Experts
             </h1>
             <p className="text-xl text-blue-50 mb-8 leading-relaxed">
               Professional home appliance repair and maintenance services in Barasat. We specialize in AC, refrigerator, washing machine, microwave, and all major brand appliances.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:+918276093962"
+                href="tel:+91 98754 38052"
                 className="inline-flex items-center justify-center bg-white text-blue-700 px-8 py-4 rounded-full font-bold hover:bg-blue-50 transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
               >
                 📞 Call for Service
               </a>
               <a
-                href="https://wa.me/918276093962"
+                href="https://wa.me/9198754 38052"
                 className="inline-flex items-center justify-center bg-green-500 text-white px-8 py-4 rounded-full font-bold hover:bg-green-600 transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
               >
                 💬 Quick Message
@@ -58,3 +58,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

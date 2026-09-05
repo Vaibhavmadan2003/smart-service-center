@@ -20,8 +20,8 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const whatsappMessage = `Hi Smart Service Center, I'm ${formData.name}. ${formData.message}. Contact me at ${formData.phone}`;
-    const whatsappUrl = `https://wa.me/918276093962?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappMessage = `Hi Smaart Service Center, I'm ${formData.name}. ${formData.message}. Contact me at ${formData.phone}`;
+    const whatsappUrl = `https://wa.me/9198754 38052?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -33,7 +33,7 @@ const Contact = () => {
             Get in <span className="text-blue-700">Touch</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Contact Smart Service Center for professional appliance repair services
+            Contact Smaart Service Center for professional appliance repair services
           </p>
         </div>
 
@@ -47,8 +47,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Phone</h3>
-                  <a href="tel:+918276093962" className="text-blue-700 font-semibold hover:underline">
-                    +91 82760 93962
+                  <a href="tel:+91 98754 38052" className="text-blue-700 font-semibold hover:underline">
+                    +91 98754 38052
                   </a>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Quick Connect</h3>
                   <a
-                    href="https://wa.me/918276093962"
+                    href="https://wa.me/9198754 38052"
                     className="inline-block bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition-colors"
                   >
                     Message on WhatsApp
@@ -176,3 +176,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

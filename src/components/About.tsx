@@ -7,7 +7,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-              About <span className="text-blue-700">Smart Service Center</span>
+              About <span className="text-blue-700">Smaart Service Center</span>
             </h2>
             <p className="text-xl text-gray-600">
               Your trusted partner for all home appliance repair needs in Barasat
@@ -18,7 +18,7 @@ const About = () => {
             <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-8 border border-blue-200">
               <h3 className="text-2xl font-bold text-blue-900 mb-4">Quality Service You Can Depend On</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Smart Service Center has been providing professional home appliance repair and maintenance services in Barasat and nearby areas for over 8 years. Our experienced technicians are dedicated to delivering quick, reliable repairs with genuine spare parts and excellent customer satisfaction.
+                Smaart Service Center has been providing professional home appliance repair and maintenance services in Barasat and nearby areas for over 8 years. Our experienced technicians are dedicated to delivering quick, reliable repairs with genuine spare parts and excellent customer satisfaction.
               </p>
             </div>
 
@@ -39,7 +39,7 @@ const About = () => {
             </div>
 
             <div className="bg-gradient-to-r from-blue-700 to-blue-600 text-white rounded-xl p-8">
-              <h3 className="text-2xl font-bold mb-6">Why Choose Smart Service Center?</h3>
+              <h3 className="text-2xl font-bold mb-6">Why Choose Smaart Service Center?</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="flex items-start space-x-4">
                   <div className="text-3xl">✓</div>
@@ -79,3 +79,4 @@ const About = () => {
 };
 
 export default About;
+
