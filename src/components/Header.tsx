@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -22,10 +22,10 @@ const Header = () => {
       <div className="bg-blue-700 text-white py-2 text-sm fixed w-full top-0 z-50">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <span>📞 +91 98754 38052</span>
+            <span>ðŸ“ž +91 98754 38052</span>
           </div>
           <div className="flex items-center space-x-4">
-            <span className="hidden md:block">📍 Bakshibagan Ln, I, Barasat, West Bengal 700124</span>
+            <span className="hidden md:block">ðŸ“ Bakshibagan Ln, I, Barasat, West Bengal 700124</span>
             <button className="bg-white text-blue-700 px-3 py-1 rounded text-xs font-semibold hover:bg-gray-100 transition-colors">
               CALL NOW
             </button>
@@ -42,10 +42,10 @@ const Header = () => {
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-700 to-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">🔧</span>
+                <span className="text-white font-bold text-xl">ðŸ”§</span>
               </div>
               <div>
-                <h1 className="text-xl font-black text-blue-700 tracking-wider">Smaart SERVICE CENTER</h1>
+                <h1 className="text-xl font-black text-blue-700 tracking-wider">Home Appliences Repair Services Center</h1>
                 <p className="text-xs text-gray-600 font-medium">Home Appliance Repair</p>
               </div>
             </Link>
@@ -142,4 +142,5 @@ const Header = () => {
 };
 
 export default Header;
+
 

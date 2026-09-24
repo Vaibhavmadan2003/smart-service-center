@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState } from 'react';
 
@@ -20,7 +20,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const whatsappMessage = `Hi Smaart Service Center, I'm ${formData.name}. ${formData.message}. Contact me at ${formData.phone}`;
+    const whatsappMessage = `Hi Home Appliences Repair Services Center, I'm ${formData.name}. ${formData.message}. Contact me at ${formData.phone}`;
     const whatsappUrl = `https://wa.me/9198754 38052?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -33,7 +33,7 @@ const Contact = () => {
             Get in <span className="text-blue-700">Touch</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Contact Smaart Service Center for professional appliance repair services
+            Contact Home Appliences Repair Services Center for professional appliance repair services
           </p>
         </div>
 
@@ -43,7 +43,7 @@ const Contact = () => {
             <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">📞</span>
+                  <span className="text-2xl">ðŸ“ž</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Phone</h3>
@@ -57,7 +57,7 @@ const Contact = () => {
             <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">📧</span>
+                  <span className="text-2xl">ðŸ“§</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Email</h3>
@@ -71,7 +71,7 @@ const Contact = () => {
             <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">📍</span>
+                  <span className="text-2xl">ðŸ“</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Location</h3>
@@ -87,7 +87,7 @@ const Contact = () => {
             <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">💬</span>
+                  <span className="text-2xl">ðŸ’¬</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Quick Connect</h3>
@@ -176,4 +176,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 

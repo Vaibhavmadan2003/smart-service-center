@@ -1,34 +1,34 @@
-'use client';
+﻿'use client';
 
 const Services = () => {
   const services = [
     {
-      icon: '❄️',
+      icon: 'â„ï¸',
       title: 'AC Repair & Service',
       description: 'Complete air conditioning repair, installation, and annual maintenance'
     },
     {
-      icon: '🧊',
+      icon: 'ðŸ§Š',
       title: 'Refrigerator Repair',
       description: 'Professional refrigerator and deep freezer repair for all brands'
     },
     {
-      icon: '🌊',
+      icon: 'ðŸŒŠ',
       title: 'Washing Machine Service',
       description: 'Expert repair and maintenance for automatic and semi-automatic machines'
     },
     {
-      icon: '🔥',
+      icon: 'ðŸ”¥',
       title: 'Microwave Oven Repair',
       description: 'Quick and reliable microwave and oven repair services'
     },
     {
-      icon: '⚙️',
+      icon: 'âš™ï¸',
       title: 'Installation Services',
       description: 'Professional installation of AC, refrigerator, and other appliances'
     },
     {
-      icon: '📞',
+      icon: 'ðŸ“ž',
       title: 'Maintenance Plans',
       description: 'Annual maintenance contracts with regular checkups and service'
     }
@@ -62,20 +62,20 @@ const Services = () => {
         <div className="mt-16 bg-blue-700 text-white rounded-xl p-12 text-center">
           <h3 className="text-3xl font-bold mb-6">Need Appliance Repair?</h3>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Call Smaart Service Center now for fast, reliable, and affordable appliance repair services in Barasat.
+            Call Home Appliences Repair Services Center now for fast, reliable, and affordable appliance repair services in Barasat.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+91 98754 38052"
               className="inline-block bg-white text-blue-700 px-8 py-3 rounded-full font-bold hover:bg-blue-50 transition-colors"
             >
-              📞 Call Now
+              ðŸ“ž Call Now
             </a>
             <a
               href="https://wa.me/9198754 38052"
               className="inline-block bg-green-500 text-white px-8 py-3 rounded-full font-bold hover:bg-green-600 transition-colors"
             >
-              💬 WhatsApp
+              ðŸ’¬ WhatsApp
             </a>
           </div>
         </div>
@@ -85,4 +85,5 @@ const Services = () => {
 };
 
 export default Services;
+
 
