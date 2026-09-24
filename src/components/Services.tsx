@@ -1,34 +1,34 @@
-﻿'use client';
+'use client';
 
 const Services = () => {
   const services = [
     {
-      icon: 'â„ï¸',
+      icon: '',
       title: 'AC Repair & Service',
       description: 'Complete air conditioning repair, installation, and annual maintenance'
     },
     {
-      icon: 'ðŸ§Š',
+      icon: '',
       title: 'Refrigerator Repair',
       description: 'Professional refrigerator and deep freezer repair for all brands'
     },
     {
-      icon: 'ðŸŒŠ',
+      icon: '',
       title: 'Washing Machine Service',
       description: 'Expert repair and maintenance for automatic and semi-automatic machines'
     },
     {
-      icon: 'ðŸ”¥',
+      icon: '',
       title: 'Microwave Oven Repair',
       description: 'Quick and reliable microwave and oven repair services'
     },
     {
-      icon: 'âš™ï¸',
+      icon: '',
       title: 'Installation Services',
       description: 'Professional installation of AC, refrigerator, and other appliances'
     },
     {
-      icon: 'ðŸ“ž',
+      icon: '',
       title: 'Maintenance Plans',
       description: 'Annual maintenance contracts with regular checkups and service'
     }
@@ -69,13 +69,13 @@ const Services = () => {
               href="tel:+91 98754 38052"
               className="inline-block bg-white text-blue-700 px-8 py-3 rounded-full font-bold hover:bg-blue-50 transition-colors"
             >
-              ðŸ“ž Call Now
+               Call Now
             </a>
             <a
               href="https://wa.me/9198754 38052"
               className="inline-block bg-green-500 text-white px-8 py-3 rounded-full font-bold hover:bg-green-600 transition-colors"
             >
-              ðŸ’¬ WhatsApp
+               WhatsApp
             </a>
           </div>
         </div>

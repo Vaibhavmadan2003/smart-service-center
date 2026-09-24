@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState } from 'react';
 
@@ -43,7 +43,7 @@ const Contact = () => {
             <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">ðŸ“ž</span>
+                  <span className="text-2xl"></span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Phone</h3>
@@ -57,7 +57,7 @@ const Contact = () => {
             <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">ðŸ“§</span>
+                  <span className="text-2xl"></span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Email</h3>
@@ -71,7 +71,7 @@ const Contact = () => {
             <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">ðŸ“</span>
+                  <span className="text-2xl"></span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Location</h3>
@@ -87,7 +87,7 @@ const Contact = () => {
             <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">ðŸ’¬</span>
+                  <span className="text-2xl"></span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Quick Connect</h3>

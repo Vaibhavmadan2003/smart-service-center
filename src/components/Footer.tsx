@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import Link from 'next/link';
 
@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-12 h-12 bg-blue-700 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">ðŸ”§</span>
+                <span className="text-white font-bold text-xl"></span>
               </div>
               <div>
                 <h3 className="text-xl font-black text-white tracking-wider">Home Appliences Repair Services Center</h3>
@@ -84,19 +84,19 @@ const Footer = () => {
             <h4 className="text-lg font-bold text-white mb-6">Contact Us</h4>
             <div className="space-y-4">
               <div>
-                <p className="text-gray-400 text-sm mb-1">ðŸ“ž Phone</p>
+                <p className="text-gray-400 text-sm mb-1"> Phone</p>
                 <a href="tel:+91 98754 38052" className="text-blue-400 font-semibold hover:text-blue-300 transition-colors">
                   +91 98754 38052
                 </a>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-1">ðŸ“§ Email</p>
+                <p className="text-gray-400 text-sm mb-1"> Email</p>
                 <a href="mailto:smartservicecenter2019@gmail.com" className="text-blue-400 font-semibold hover:text-blue-300 transition-colors break-all">
                   smartservicecenter2019@gmail.com
                 </a>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-1">ðŸ“ Location</p>
+                <p className="text-gray-400 text-sm mb-1"> Location</p>
                 <p className="text-gray-400 text-sm">
                   Bakshibagan Ln, I<br />
                   Barasat, West Bengal 700124
@@ -118,7 +118,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              Â© {currentYear} Home Appliences Repair Services Center. All rights reserved.
+               {currentYear} Home Appliences Repair Services Center. All rights reserved.
             </p>
             <div className="flex items-center space-x-6">
               <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors">

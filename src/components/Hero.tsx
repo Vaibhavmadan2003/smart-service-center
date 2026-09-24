@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
           {/* Left Content */}
           <div className="text-white">
             <div className="inline-block bg-blue-600/50 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-blue-300/30">
-              <span className="text-sm font-semibold">ðŸ”§ PROFESSIONAL HOME APPLIANCE REPAIR</span>
+              <span className="text-sm font-semibold"> PROFESSIONAL HOME APPLIANCE REPAIR</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
               <span className="text-blue-200">Home Appliences Repair Services Center</span><br />Appliance Repair Experts
@@ -21,13 +21,13 @@ const Hero = () => {
                 href="tel:+91 98754 38052"
                 className="inline-flex items-center justify-center bg-white text-blue-700 px-8 py-4 rounded-full font-bold hover:bg-blue-50 transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
               >
-                ðŸ“ž Call for Service
+                 Call for Service
               </a>
               <a
                 href="https://wa.me/9198754 38052"
                 className="inline-flex items-center justify-center bg-green-500 text-white px-8 py-4 rounded-full font-bold hover:bg-green-600 transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
               >
-                ðŸ’¬ Quick Message
+                 Quick Message
               </a>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Hero = () => {
               <p className="text-blue-100 font-semibold">Years Experience</p>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-8 border border-white/20 hover:bg-white/20 transition-all transform hover:-translate-y-2">
-              <div className="text-4xl font-black text-blue-200 mb-2">ðŸ†</div>
+              <div className="text-4xl font-black text-blue-200 mb-2"></div>
               <p className="text-blue-100 font-semibold">Trusted Service</p>
             </div>
           </div>

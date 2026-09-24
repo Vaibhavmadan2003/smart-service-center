@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 const About = () => {
   return (
@@ -24,14 +24,14 @@ const About = () => {
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-blue-700 text-white rounded-xl p-8">
-                <h4 className="text-xl font-bold mb-4">ðŸ’¡ Our Mission</h4>
+                <h4 className="text-xl font-bold mb-4"> Our Mission</h4>
                 <p className="text-blue-100 leading-relaxed">
                   To provide affordable, reliable, and professional home appliance repair services with quick response time and genuine parts for all major brands.
                 </p>
               </div>
 
               <div className="bg-blue-800 text-white rounded-xl p-8">
-                <h4 className="text-xl font-bold mb-4">ðŸŽ¯ Our Vision</h4>
+                <h4 className="text-xl font-bold mb-4"> Our Vision</h4>
                 <p className="text-blue-100 leading-relaxed">
                   To be the most trusted appliance repair service provider in Barasat, known for quality workmanship, affordability, and exceptional customer care.
                 </p>
@@ -42,28 +42,28 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-6">Why Choose Home Appliences Repair Services Center?</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="flex items-start space-x-4">
-                  <div className="text-3xl">âœ“</div>
+                  <div className="text-3xl"></div>
                   <div>
                     <h4 className="font-bold mb-2">Experienced Technicians</h4>
                     <p className="text-blue-100">8+ years of professional repair experience</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="text-3xl">âœ“</div>
+                  <div className="text-3xl"></div>
                   <div>
                     <h4 className="font-bold mb-2">Genuine Parts</h4>
                     <p className="text-blue-100">Only authentic spare parts used</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="text-3xl">âœ“</div>
+                  <div className="text-3xl"></div>
                   <div>
                     <h4 className="font-bold mb-2">Affordable Pricing</h4>
                     <p className="text-blue-100">Competitive rates with transparent pricing</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="text-3xl">âœ“</div>
+                  <div className="text-3xl"></div>
                   <div>
                     <h4 className="font-bold mb-2">Doorstep Service</h4>
                     <p className="text-blue-100">We come to your home for repairs</p>
