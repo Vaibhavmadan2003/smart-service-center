@@ -1,22 +1,17 @@
-﻿'use client';
-
+﻿﻿'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-
 // Fixed encoding - UTF-8 compliant
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
   return (
     <>
       {/* Top Bar */}
@@ -33,7 +28,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-
       {/* Main Header */}
       <header className={`fixed w-full z-40 top-10 transition-all duration-300 ${
         isScrolled ? 'bg-white shadow-lg py-2' : 'bg-white/95 backdrop-blur-sm py-4'
@@ -50,7 +44,6 @@ const Header = () => {
                 <p className="text-xs text-gray-600 font-medium">Home Appliance Repair</p>
               </div>
             </Link>
-
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-700 font-medium transition-colors">
@@ -84,7 +77,6 @@ const Header = () => {
                 </a>
               </div>
             </nav>
-
             {/* Mobile Menu Button */}
             <button
               className="lg:hidden p-2"
@@ -99,7 +91,6 @@ const Header = () => {
               </svg>
             </button>
           </div>
-
           {/* Mobile Menu */}
           {isMobileMenuOpen && (
             <div className="lg:hidden mt-4 pb-4 animate-fadeInUp">
@@ -141,7 +132,4 @@ const Header = () => {
     </>
   );
 };
-
 export default Header;
-
-
